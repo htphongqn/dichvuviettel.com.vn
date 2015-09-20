@@ -147,7 +147,7 @@
                         </div>
                         <div class="row">
                             <div class="col1 left_col1">
-                                Gửi đến (CC):<span class="required">*</span></div>
+                                Gửi đến (CC):<span class="required"></span></div>
                             <div class="col1 right_col1">
                                 <input name="Send_txtEmailCC" type="text" class="inputbox" runat="server" id="Send_txtEmailCC" />
                                 <br />

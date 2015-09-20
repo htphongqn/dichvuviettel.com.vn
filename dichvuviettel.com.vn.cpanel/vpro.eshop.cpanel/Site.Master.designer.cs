@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel {
+namespace yeuthietkeweb.cpanel {
     
     
     public partial class SiteMaster {
@@ -46,7 +46,7 @@ namespace vpro.eshop.cpanel {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.ucControls.ucHeader ucHeader1;
+        protected global::yeuthietkeweb.cpanel.ucControls.ucHeader ucHeader1;
         
         /// <summary>
         /// phdLeft control.
@@ -73,6 +73,6 @@ namespace vpro.eshop.cpanel {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.ucControls.ucFooter ucFooter1;
+        protected global::yeuthietkeweb.cpanel.ucControls.ucFooter ucFooter1;
     }
 }

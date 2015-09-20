@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="vote-list.aspx.cs" Inherits="vpro.eshop.cpanel.page.vote_list" %>
+    CodeBehind="vote-list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.vote_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>DS Vote | Vpro.Eshop </title>
+    <title>DS Vote | yeuthietkeweb </title>
     <script language="javascript">
                 <!--
         function ToggleAll(e, action) {

@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_banner.aspx.cs" Inherits="vpro.eshop.cpanel.page.config_banner" %>
+    CodeBehind="config_banner.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_banner" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Cấu hình Banner| Vpro.Eshop</title>
+    <title>Cấu hình Banner| yeuthietkeweb</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="icon_function_parent">
@@ -57,7 +57,7 @@
                         Visible="false"></asp:Label>
                 </td>
             </tr>
-            <tr style="height: 20px;">
+            <tr style="height: 20px;display:none">
                 <th valign="top" class="left">
                     Ngôn ngữ
                 </th>

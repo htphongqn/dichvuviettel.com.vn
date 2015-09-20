@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel
+namespace yeuthietkeweb.cpanel
 {
 
 

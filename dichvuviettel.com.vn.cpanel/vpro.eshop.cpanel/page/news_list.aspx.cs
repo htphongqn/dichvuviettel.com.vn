@@ -8,12 +8,12 @@ using vpro.functions;
 
 using System.Data;
 using System.Web.UI.HtmlControls;
-using vpro.eshop.cpanel.ucControls;
-using vpro.eshop.cpanel.Components;
+using yeuthietkeweb.cpanel.ucControls;
+using yeuthietkeweb.cpanel.Components;
 using System.IO;
 using System.Net.Mail;
 
-namespace vpro.eshop.cpanel.page
+namespace yeuthietkeweb.cpanel.page
 {
     public partial class news_list : System.Web.UI.Page
     {

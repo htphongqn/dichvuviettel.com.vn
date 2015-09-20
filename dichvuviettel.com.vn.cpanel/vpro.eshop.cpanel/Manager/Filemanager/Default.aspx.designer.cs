@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.Filemanager {
+namespace yeuthietkeweb.cpanel.Filemanager {
     
     
     public partial class Default {

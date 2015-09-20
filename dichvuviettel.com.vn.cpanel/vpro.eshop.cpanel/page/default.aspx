@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="vpro.eshop.cpanel.page._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="yeuthietkeweb.cpanel.page._default" %>
 
 <%@ Register Src="../ucControls/ucHeader.ascx" TagName="ucHeader" TagPrefix="uc1" %>
 <%@ Register Src="../ucControls/ucFooter.ascx" TagName="ucFooter" TagPrefix="uc2" %>
@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>EShop V1.0</title>
+    <title>Yeuthietkeweb V1.0</title>
     <link href="../Styles/Cpanel_Login.css" rel="stylesheet" type="text/css" />
     <link href="~/Styles/Cpanel_Site.css" rel="stylesheet" type="text/css" />
     <script src="/Scripts/UtilitiesCpanel.js" type="text/javascript"></script>

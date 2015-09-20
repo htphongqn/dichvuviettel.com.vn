@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="user_changepass.aspx.cs" Inherits="vpro.eshop.cpanel.page.user_changepass" %>
+    CodeBehind="user_changepass.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.user_changepass" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Đổi mật khẩu | Vpro.Eshop </title>
+    <title>Đổi mật khẩu | yeuthietkeweb </title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="icon_function_parent">

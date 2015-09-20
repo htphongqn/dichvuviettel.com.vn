@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="point_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.point_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="point_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.point_list" %>
 
 <%@ Register Assembly="MSCaptcha" Namespace="MSCaptcha" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Đơn vị tiền tệ | Vpro.Eshop </title>
+    <title>Đơn vị tiền tệ | yeuthietkeweb </title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

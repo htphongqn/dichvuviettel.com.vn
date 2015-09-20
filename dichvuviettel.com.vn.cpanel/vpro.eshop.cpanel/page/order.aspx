@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-	CodeBehind="order.aspx.cs" Inherits="vpro.eshop.cpanel.page.order" %>
+	CodeBehind="order.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.order" %>
     <%@ Register Src="../Calendar/pickerAndCalendar.ascx" TagName="pickerAndCalendar"
     TagPrefix="uc1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-	<title>Thông tin liên hệ | vpro.eshop</title>
+	<title>Thông tin liên hệ | yeuthietkeweb</title>
         <link href="../Calendar/calendarStyle.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

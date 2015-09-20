@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.page {
+namespace yeuthietkeweb.cpanel.page {
     
     
     public partial class config_hitcouter {

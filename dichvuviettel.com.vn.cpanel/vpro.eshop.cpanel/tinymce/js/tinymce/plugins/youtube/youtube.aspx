@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="youtube.aspx.cs" Inherits="vpro.eshop.cpanel.youtube" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="youtube.aspx.cs" Inherits="yeuthietkeweb.cpanel.youtube" %>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/ui/jquery-ui-git.js"></script>

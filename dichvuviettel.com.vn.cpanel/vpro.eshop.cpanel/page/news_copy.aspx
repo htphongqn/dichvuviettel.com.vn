@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="news_copy.aspx.cs" Inherits="vpro.eshop.cpanel.page.news_copy" %>
+    CodeBehind="news_copy.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.news_copy" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Sao chép tin - Sản phẩm | Vpro.Eshop </title>
+    <title>Sao chép tin - Sản phẩm | yeuthietkeweb </title>
     <script src="../Jquery/jquery.min.1.7.2.js" type="text/javascript"></script>
     <script src="../Jquery/JqueryCollapse/jquery.collapse.js" type="text/javascript"></script>
     <script language="javascript">

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.page {
+namespace yeuthietkeweb.cpanel.page {
     
     
     public partial class news_html {
@@ -82,7 +82,7 @@ namespace vpro.eshop.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.ucControls.ucNewsInfo ucNewsInfo1;
+        protected global::yeuthietkeweb.cpanel.ucControls.ucNewsInfo ucNewsInfo1;
         
         /// <summary>
         /// mrk control.

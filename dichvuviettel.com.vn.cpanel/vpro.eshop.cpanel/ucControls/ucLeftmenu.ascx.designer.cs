@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.ucControls
+namespace yeuthietkeweb.cpanel.ucControls
 {
 
 

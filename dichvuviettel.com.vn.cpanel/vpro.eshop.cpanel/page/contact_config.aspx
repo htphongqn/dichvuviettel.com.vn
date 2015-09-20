@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="contact_config.aspx.cs" Inherits="vpro.eshop.cpanel.page.contact_config" ValidateRequest="false" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="contact_config.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.contact_config" ValidateRequest="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Cấu hình Footer - Sản phẩm | vpro.eshop</title>
+    <title>Cấu hình Footer - Sản phẩm | yeuthietkeweb</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <script src="../tinymce/js/tinymce/tinymce.min.js"></script>

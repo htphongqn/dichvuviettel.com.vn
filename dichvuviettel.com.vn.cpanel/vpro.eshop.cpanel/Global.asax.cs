@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace vpro.eshop.cpanel
+namespace yeuthietkeweb.cpanel
 {
     public class Global : System.Web.HttpApplication
     {

@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="news_news.aspx.cs" Inherits="vpro.eshop.cpanel.page.news_news" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="news_news.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.news_news" %>
 <%@ Register Src="../ucControls/ucNewsInfo.ascx" TagName="ucNewsInfo" TagPrefix="uc1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Nhóm người dùng | Vpro.Eshop </title>
+    <title>Nhóm người dùng | yeuthietkeweb </title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

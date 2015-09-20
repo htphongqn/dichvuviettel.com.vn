@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="order_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.order_list" %>
+    CodeBehind="order_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.order_list" %>
 
 <%@ Register Src="../Calendar/pickerAndCalendar.ascx" TagName="pickerAndCalendar"
     TagPrefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Danh sách đơn đặt hàng | vpro.eshop</title>
+    <title>Danh sách đơn đặt hàng | yeuthietkeweb</title>
     <script language="javascript">
                 <!--
         function ToggleAll(e, action, chkName) {

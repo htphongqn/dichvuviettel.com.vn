@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_footer.aspx.cs" Inherits="vpro.eshop.cpanel.page.config_footer"
+    CodeBehind="config_footer.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_footer"
     ValidateRequest="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Cấu hình Footer - Sản phẩm | Vpro.Eshop</title>    
+    <title>Cấu hình Footer - Sản phẩm | yeuthietkeweb</title>    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <script src="../tinymce/js/tinymce/tinymce.min.js"></script>

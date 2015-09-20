@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 using vpro.functions;
 using System.Data;
 using System.Web.UI.HtmlControls;
-using vpro.eshop.cpanel.ucControls;
+using yeuthietkeweb.cpanel.ucControls;
 
 //Create by lucnv 25-12-2012
 
-namespace vpro.eshop.cpanel.page
+namespace yeuthietkeweb.cpanel.page
 {
     public partial class user_gift_list : System.Web.UI.Page
     {

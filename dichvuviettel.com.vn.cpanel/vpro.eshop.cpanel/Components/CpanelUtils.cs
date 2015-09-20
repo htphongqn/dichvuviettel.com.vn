@@ -10,7 +10,7 @@ using System.Drawing;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace vpro.eshop.cpanel.Components
+namespace yeuthietkeweb.cpanel.Components
 {
     public static class CpanelUtils
     {

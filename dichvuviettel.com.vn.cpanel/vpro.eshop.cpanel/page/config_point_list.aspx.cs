@@ -7,10 +7,10 @@ using System.Web.UI.WebControls;
 using vpro.functions;
 
 using System.Data;
-using vpro.eshop.cpanel.ucControls;
+using yeuthietkeweb.cpanel.ucControls;
 using System.Web.UI.HtmlControls;
 
-namespace vpro.eshop.cpanel.page
+namespace yeuthietkeweb.cpanel.page
 {
     //Code by Tran Van Minh 27/12/2012
     public partial class config_point_list : System.Web.UI.Page

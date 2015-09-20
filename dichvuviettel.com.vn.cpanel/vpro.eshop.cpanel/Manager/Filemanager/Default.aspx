@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="vpro.eshop.cpanel.Filemanager.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="yeuthietkeweb.cpanel.Filemanager.Default" %>
 
 <!DOCTYPE html>
 

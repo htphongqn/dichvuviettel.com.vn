@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_email.aspx.cs" Inherits="vpro.eshop.cpanel.page.config_email" %>
+    CodeBehind="config_email.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_email" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Cấu hình Email | vpro.eshop</title>
+    <title>Cấu hình Email | yeuthietkeweb</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="icon_function_parent">

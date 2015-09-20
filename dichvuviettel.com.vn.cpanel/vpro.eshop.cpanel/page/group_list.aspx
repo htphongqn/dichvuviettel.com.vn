@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="group_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.group_list" %>
+    CodeBehind="group_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.group_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>DS nhóm người dùng | Vpro.Eshop </title>
+    <title>DS nhóm người dùng | yeuthietkeweb </title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

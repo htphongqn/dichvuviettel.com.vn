@@ -37,7 +37,6 @@ namespace Controller
         }
         public string GetImageT_News(object News_Id, object News_Image1)
         {
-
             try
             {
                 if (Utils.CIntDef(News_Id) > 0 && !string.IsNullOrEmpty(Utils.CStrDef(News_Image1)))
@@ -57,7 +56,6 @@ namespace Controller
         }
         public string GetImageT_News_Hasclass(object News_Id, object News_Image1,string nameclass)
         {
-
             try
             {
                 if (Utils.CIntDef(News_Id) > 0 && !string.IsNullOrEmpty(Utils.CStrDef(News_Image1)))
@@ -310,16 +308,16 @@ namespace Controller
                 switch (_iType)
                 {
                     case 3:
-                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' class='facebook'><i class='fa fa-facebook'></i></a>";
+                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' title='" + Utils.CStrDef(Description) + "' class='facebook'><i class='fa fa-facebook'></i></a>";
                         break;
                     case 4:
-                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' class='google-plus'><i class='fa fa-google-plus'></i></a>";
+                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' title='" + Utils.CStrDef(Description) + "' class='google-plus'><i class='fa fa-google-plus'></i></a>";
                         break;
                     case 5:
-                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' class='twitter'><i class='fa fa-twitter'></i></a>";
+                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' title='" + Utils.CStrDef(Description) + "' class='twitter'><i class='fa fa-twitter'></i></a>";
                         break;
                     case 6:
-                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' class='youtube'><i class='fa fa-youtube'></i></a>";
+                        _sResult += "<a href='" + Utils.CStrDef(Nickname) + "' target='_blank' title='" + Utils.CStrDef(Description) + "' class='youtube'><i class='fa fa-youtube'></i></a>";
                         break;
                     default:
                         break;

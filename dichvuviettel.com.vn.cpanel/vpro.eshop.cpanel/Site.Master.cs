@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using vpro.functions;
 
-namespace vpro.eshop.cpanel
+namespace yeuthietkeweb.cpanel
 {
     public partial class SiteMaster : System.Web.UI.MasterPage
     {

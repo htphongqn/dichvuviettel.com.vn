@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="album.aspx.cs" Inherits="vpro.eshop.cpanel.page.album" %>
+    CodeBehind="album.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.album" %>
 
 <%@ Register Src="../ucControls/ucNewsInfo.ascx" TagName="ucNewsInfo" TagPrefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Album quảng cáo | Vpro.Eshop</title>
+    <title>Album quảng cáo | yeuthietkeweb</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="icon_function_parent">

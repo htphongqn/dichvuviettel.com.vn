@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="page-email-send.aspx.cs" Inherits="vpro.eshop.cpanel.page.page_email_send" %>
+    CodeBehind="page-email-send.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.page_email_send" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Email| Vpro.Eshop</title>
+    <title>Email| yeuthietkeweb</title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

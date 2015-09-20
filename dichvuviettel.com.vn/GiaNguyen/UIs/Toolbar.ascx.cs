@@ -37,7 +37,7 @@ namespace GiaNguyen.UIs
         protected void lbtSendEmail_Click(object sender, EventArgs e)
         {
             string strSecView = LookCookie().ToLower();
-            string strSecurity = txtCapcha.Value.ToString().ToLower();
+            string strSecurity = Send_txtCapcha.Value.ToString().ToLower();
             if (strSecurity != strSecView)
             {
                 Response.Write("<script>alert('Nhập mã bảo mật sai!');</script>");
@@ -52,7 +52,7 @@ namespace GiaNguyen.UIs
             //else
             //{
                 string strEmailBody = "";
-                string url = string.IsNullOrEmpty(Utils.CStrDef(Session["News_url"])) ? "/tin-tuc/" + Utils.CStrDef(Session["News_seo_url"]) + ".html" : Utils.CStrDef(Session["News_url"]);
+                //string url = string.IsNullOrEmpty(Utils.CStrDef(Session["News_url"])) ? "/tin-tuc/" + Utils.CStrDef(Session["News_seo_url"]) + ".html" : Utils.CStrDef(Session["News_url"]);
 
                 strEmailBody = "<html><body>";
                 //strEmailBody += "Chào  " !<br>";
@@ -61,55 +61,18 @@ namespace GiaNguyen.UIs
                 strEmailBody += "<a href='" + Request.ServerVariables["HTTP_REFERER"] + "'>" + Request.ServerVariables["HTTP_REFERER"] + "</a>";
                 strEmailBody += "</body></html>";
 
-                SendEmailSMTP("Vui lòng ghé thăm website ", Send_txtEmailTo.Value, Send_txtEmailCC.Value, "", strEmailBody, true, false);
+                send.SendEmailSMTP("Vui lòng ghé thăm website ", Send_txtEmailTo.Value, Send_txtEmailCC.Value, "", strEmailBody, true, false);
                 if (!string.IsNullOrEmpty(Request.ServerVariables["HTTP_REFERER"]))
                     Response.Redirect(Request.ServerVariables["HTTP_REFERER"]);
             //}
         }
-
-        public void SendEmailSMTP(string strSubject, string toAddress, string ccAddress, string bccAddress, string body, bool isHtml, bool isSSL)
-        {
-            try
-            {
-                using (MailMessage mail = new MailMessage())
-                {
-                    mail.From = new MailAddress(Utils.CStrDef(System.Configuration.ConfigurationManager.AppSettings["Email"]), Utils.CStrDef(System.Configuration.ConfigurationManager.AppSettings["EmailDisplayName"]));
-                    mail.To.Add(toAddress);
-                    if (ccAddress != "")
-                    {
-                        mail.CC.Add(ccAddress);
-                    }
-                    if (bccAddress != "")
-                    {
-                        mail.Bcc.Add(bccAddress);
-                    }
-                    mail.Subject = strSubject;
-
-                    string str = body;
-                    mail.Body = str;
-                    mail.IsBodyHtml = isHtml;
-                    SmtpClient client = new SmtpClient();
-                    client.EnableSsl = isSSL;
-                    client.Host = Utils.CStrDef(System.Configuration.ConfigurationManager.AppSettings["EmailHost"]);
-                    client.Port = Utils.CIntDef(System.Configuration.ConfigurationManager.AppSettings["EmailPort"]);
-                    client.Credentials = new System.Net.NetworkCredential(Utils.CStrDef(System.Configuration.ConfigurationManager.AppSettings["Email"]), Utils.CStrDef(System.Configuration.ConfigurationManager.AppSettings["EmailPassword"]));
-
-                    client.Send(mail);
-                }
-            }
-            catch (SmtpException ex)
-            {
-                clsVproErrorHandler.HandlerError(ex);
-            }
-        }
-
         private void SendEmailToFriend()
         {
             try
             {
                 string strEmailSubject = "";
                 string strEmailBody = "";
-                string url = string.IsNullOrEmpty(Utils.CStrDef(Session["News_url"])) ? "/tin-tuc/" + Utils.CStrDef(Session["News_seo_url"]) + ".html" : Utils.CStrDef(Session["News_url"]);
+                //string url = string.IsNullOrEmpty(Utils.CStrDef(Session["News_url"])) ? "/tin-tuc/" + Utils.CStrDef(Session["News_seo_url"]) + ".html" : Utils.CStrDef(Session["News_url"]);
 
                 strEmailSubject = "Vui lòng ghé thăm website";
                 strEmailBody = "<html><body>";
@@ -224,7 +187,7 @@ namespace GiaNguyen.UIs
                     string strEmailSubject = "";
                     string strEmailBody = "";
 
-                    strEmailSubject += "Thông tin phản hồi từ website ipinternational ";
+                    strEmailSubject += "Thông tin phản hồi từ website " + Utils.CStrDef(System.Configuration.ConfigurationManager.AppSettings["EmailDisplayName"]);
                     strEmailBody += "<html><body>";
                     strEmailBody += "<br>Thông tin phản hồi: <br>";
                     strEmailBody += "Ngày tháng: " + DateTime.Now.Day.ToString() + "-" + DateTime.Now.Month.ToString() + "-" + DateTime.Now.Year.ToString() + "<br>";
@@ -234,7 +197,7 @@ namespace GiaNguyen.UIs
                     strEmailBody += "Nội dung: " + message.Value;
                     strEmailBody += "</body></html>";
 
-                    SendEmailSMTP(strEmailSubject, _FeedEmail.ToList()[0].EMAIL_TO, _FeedEmail.ToList()[0].EMAIL_CC, _FeedEmail.ToList()[0].EMAIL_BCC, strEmailBody, true, false);
+                    send.SendEmailSMTP(strEmailSubject, _FeedEmail.ToList()[0].EMAIL_TO, _FeedEmail.ToList()[0].EMAIL_CC, _FeedEmail.ToList()[0].EMAIL_BCC, strEmailBody, true, false);
                     //SendEmailSMTP(strEmailSubject, txtemail.Value, "", "", strEmailBody, true, false);
                 }
             }

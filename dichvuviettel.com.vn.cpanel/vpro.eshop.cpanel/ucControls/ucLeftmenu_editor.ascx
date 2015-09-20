@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucLeftmenu_editor.ascx.cs"
-    Inherits="vpro.eshop.cpanel.ucControls.ucLeftmenu_editor" %>
+    Inherits="yeuthietkeweb.cpanel.ucControls.ucLeftmenu_editor" %>
 <div id="contentpr_menu">
     <ul>
         <li><a href="#">

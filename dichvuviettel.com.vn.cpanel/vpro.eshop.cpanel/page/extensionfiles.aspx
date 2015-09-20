@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="extensionfiles.aspx.cs" Inherits="vpro.eshop.cpanel.page.extensionfiles" %>
+    CodeBehind="extensionfiles.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.extensionfiles" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Dạng mở rộng file | Vpro.Eshop</title>
+    <title>Dạng mở rộng file | yeuthietkeweb</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="icon_function_parent">

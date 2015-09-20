@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.page {
+namespace yeuthietkeweb.cpanel.page {
     
     
     public partial class _default {
@@ -46,7 +46,7 @@ namespace vpro.eshop.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.ucControls.ucHeader ucHeader1;
+        protected global::yeuthietkeweb.cpanel.ucControls.ucHeader ucHeader1;
         
         /// <summary>
         /// ucFooter1 control.
@@ -55,6 +55,6 @@ namespace vpro.eshop.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.ucControls.ucFooter ucFooter1;
+        protected global::yeuthietkeweb.cpanel.ucControls.ucFooter ucFooter1;
     }
 }

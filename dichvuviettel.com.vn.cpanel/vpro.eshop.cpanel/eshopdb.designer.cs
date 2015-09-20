@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel
+namespace yeuthietkeweb.cpanel
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;

@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="websitelink_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.websitelink_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="websitelink_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.websitelink_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>DS hỗ trợ trực tuyến | Vpro.Eshop </title>
+    <title>DS hỗ trợ trực tuyến | yeuthietkeweb </title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

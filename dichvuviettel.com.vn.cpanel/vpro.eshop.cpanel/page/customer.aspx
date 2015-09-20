@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="customer.aspx.cs" Inherits="vpro.eshop.cpanel.page.customer" %>
+    CodeBehind="customer.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.customer" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Khách hàng | Vpro.Eshop</title>
+    <title>Khách hàng | yeuthietkeweb</title>
     <style type="text/css">
         .style1
         {

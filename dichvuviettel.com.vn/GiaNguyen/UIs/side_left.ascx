@@ -19,8 +19,8 @@
         <ul>
           <asp:Repeater ID="rptMenu" runat="server">
             <ItemTemplate>
-                <li class='<%#GetStyleActive(Eval("cat_seo_url"),Eval("cat_url")) %>'>
-                    <a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>">
+                <li class='<%#GetStyleActive(Eval("cat_seo_url"),Eval("cat_url")) %>' title="<%#Eval("cat_name")%>">
+                    <a href="<%#GetLink_Cat(Eval("cat_url"),Eval("cat_seo_url"))%>">
                         <%#Eval("cat_name")%>
                     </a>                    
                 </li>

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace vpro.eshop.cpanel.ucControls
+namespace yeuthietkeweb.cpanel.ucControls
 {
     public partial class ucLeftmenu : System.Web.UI.UserControl
     {

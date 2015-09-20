@@ -6,12 +6,12 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using vpro.functions;
 using System.Data;
-using vpro.eshop.cpanel.ucControls;
+using yeuthietkeweb.cpanel.ucControls;
 using System.Web.UI.HtmlControls;
 
 //Create by Lucnv 25-12-2012
 
-namespace vpro.eshop.cpanel.page
+namespace yeuthietkeweb.cpanel.page
 {
     public partial class order : System.Web.UI.Page
     {

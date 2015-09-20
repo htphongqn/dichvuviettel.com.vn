@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.page {
+namespace yeuthietkeweb.cpanel.page {
     
     
     public partial class order {
@@ -118,7 +118,7 @@ namespace vpro.eshop.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.Calendar.pickerAndCalendar ucDate;
+        protected global::yeuthietkeweb.cpanel.Calendar.pickerAndCalendar ucDate;
         
         /// <summary>
         /// GridItemList control.

@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="gift_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.gift_list" %>
+    CodeBehind="gift_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.gift_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>DS Sản phẩm - tin tức | Vpro.Eshop</title>
+    <title>DS Sản phẩm - tin tức | yeuthietkeweb</title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

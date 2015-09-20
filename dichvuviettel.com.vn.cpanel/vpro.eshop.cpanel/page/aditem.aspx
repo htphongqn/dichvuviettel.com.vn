@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="aditem.aspx.cs" Inherits="vpro.eshop.cpanel.page.aditem" %>
+    CodeBehind="aditem.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.aditem" %>
 
 <%@ Register Src="../Calendar/pickerAndCalendar.ascx" TagName="pickerAndCalendar"
     TagPrefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Cấu hình Banner| Vpro.Eshop</title>
+    <title>Cấu hình Banner| yeuthietkeweb</title>
     <link href="../Calendar/calendarStyle.css" rel="stylesheet" type="text/css" />
     <script language="javascript">
 				<!--

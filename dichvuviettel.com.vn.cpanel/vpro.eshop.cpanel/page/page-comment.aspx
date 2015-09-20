@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="page-comment.aspx.cs" Inherits="vpro.eshop.cpanel.page.page_comment" %>
+    CodeBehind="page-comment.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.page_comment" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>DS comment | Vpro.Eshop</title>
+    <title>DS comment | yeuthietkeweb</title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

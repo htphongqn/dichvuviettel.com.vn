@@ -6,7 +6,7 @@
         <asp:Repeater ID="Rpmenu" runat="server">
             <ItemTemplate>
                 <li class='<%#GetStyleActive(Eval("cat_seo_url"),Eval("cat_url")) %>'>
-                    <a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>">
+                    <a href="<%#GetLink_Cat(Eval("cat_url"),Eval("cat_seo_url"))%>" title="<%#Eval("cat_name")%>">
                         <%#Eval("cat_name")%>
                     </a>
                 <asp:Repeater ID="Repeater1" runat="server" DataSource='<%# Load_Menu2(Eval("Cat_ID")) %>'>
@@ -15,7 +15,7 @@
                     </HeaderTemplate>
                     <ItemTemplate>
                         <li>
-                            <a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>">                               
+                            <a href="<%#GetLink_Cat(Eval("cat_url"),Eval("cat_seo_url"))%>" title="<%#Eval("cat_name")%>">                               
                             <%#Eval("cat_name")%>
                             </a>
                             <asp:Repeater ID="Repeater2" runat="server" DataSource='<%# Load_Menu2(Eval("Cat_ID")) %>'>
@@ -24,7 +24,7 @@
                                 </HeaderTemplate>
                                 <ItemTemplate>
                                     <li>
-                                        <a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>">
+                                        <a href="<%#GetLink_Cat(Eval("cat_url"),Eval("cat_seo_url"))%>" title="<%#Eval("cat_name")%>">
                                         <%#Eval("cat_name")%>
                                         </a>
                                     </li>

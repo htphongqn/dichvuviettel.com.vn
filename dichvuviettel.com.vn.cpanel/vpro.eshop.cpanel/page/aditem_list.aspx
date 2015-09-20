@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="aditem_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.aditem_list" %>
+    CodeBehind="aditem_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.aditem_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Danh sách banner quảng cáo| Vpro.Eshop</title>
+    <title>Danh sách banner quảng cáo| yeuthietkeweb</title>
     <script language="javascript">
                 <!--
         function ToggleAll(e, action) {

@@ -8,10 +8,10 @@ using vpro.functions;
 
 using System.Data;
 using System.Web.UI.HtmlControls;
-using vpro.eshop.cpanel.ucControls;
+using yeuthietkeweb.cpanel.ucControls;
 using System.IO;
 using System.Reflection;
-namespace vpro.eshop.cpanel.page
+namespace yeuthietkeweb.cpanel.page
 {
     public partial class vote_list : System.Web.UI.Page
     {

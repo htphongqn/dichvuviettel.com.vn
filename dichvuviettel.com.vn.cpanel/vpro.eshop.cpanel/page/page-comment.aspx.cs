@@ -8,12 +8,12 @@ using vpro.functions;
 
 using System.Data;
 using System.Web.UI.HtmlControls;
-using vpro.eshop.cpanel.ucControls;
+using yeuthietkeweb.cpanel.ucControls;
 using System.IO;
 using System.Net.Mail;
 
 
-namespace vpro.eshop.cpanel.page
+namespace yeuthietkeweb.cpanel.page
 {
     public partial class page_comment : System.Web.UI.Page
     {

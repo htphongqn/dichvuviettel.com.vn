@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="config_point.aspx.cs" Inherits="vpro.eshop.cpanel.page.config_point" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="config_point.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_point" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Cấu hình tích lũy điểm | Vpro.Eshop</title>
+    <title>Cấu hình tích lũy điểm | yeuthietkeweb</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="icon_function_parent">

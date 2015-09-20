@@ -8,10 +8,10 @@ using System.Data;
 using vpro.functions;
 using System.Web.UI.HtmlControls;
 using System.IO;
-using vpro.eshop.cpanel.ucControls;
-using vpro.eshop.cpanel.Components;
+using yeuthietkeweb.cpanel.ucControls;
+using yeuthietkeweb.cpanel.Components;
 
-namespace vpro.eshop.cpanel.page
+namespace yeuthietkeweb.cpanel.page
 {
     public partial class properties_list : System.Web.UI.Page
     {

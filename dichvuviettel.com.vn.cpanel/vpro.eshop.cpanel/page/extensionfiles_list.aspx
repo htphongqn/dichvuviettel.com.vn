@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="extensionfiles_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.extensionfiles_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="extensionfiles_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.extensionfiles_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Dạng mở rộng file | Vpro.Eshop </title>
+    <title>Dạng mở rộng file | yeuthietkeweb </title>
     <script language="javascript">
                 <!--
         function ToggleAll(e, action) {

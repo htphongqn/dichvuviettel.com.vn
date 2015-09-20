@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="news_html.aspx.cs" Inherits="vpro.eshop.cpanel.page.news_html" ValidateRequest="false" %>
+    CodeBehind="news_html.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.news_html" ValidateRequest="false" %>
 
 <%@ Register Src="../ucControls/ucNewsInfo.ascx" TagName="ucNewsInfo" TagPrefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Soạn tin - Sản phẩm | Vpro.Eshop</title>   
+    <title>Soạn tin - Sản phẩm | yeuthietkeweb</title>   
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <script src="../tinymce/js/tinymce/tinymce.min.js"></script>

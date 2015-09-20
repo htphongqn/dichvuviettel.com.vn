@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.page {
+namespace yeuthietkeweb.cpanel.page {
     
     
     public partial class aditem {
@@ -154,7 +154,7 @@ namespace vpro.eshop.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.Calendar.pickerAndCalendar ucFromDate;
+        protected global::yeuthietkeweb.cpanel.Calendar.pickerAndCalendar ucFromDate;
         
         /// <summary>
         /// ucToDate control.
@@ -163,7 +163,7 @@ namespace vpro.eshop.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::vpro.eshop.cpanel.Calendar.pickerAndCalendar ucToDate;
+        protected global::yeuthietkeweb.cpanel.Calendar.pickerAndCalendar ucToDate;
         
         /// <summary>
         /// rblLanguage control.

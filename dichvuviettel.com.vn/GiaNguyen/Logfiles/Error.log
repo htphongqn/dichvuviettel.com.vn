@@ -1,3 +1,39 @@
+[Date 20/09/2015 09:19:11]
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <htphongqn@gmail.com>, Recipient unknown
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at GiaNguyen.UIs.Toolbar.SendEmailSMTP(String strSubject, String toAddress, String ccAddress, String bccAddress, String body, Boolean isHtml, Boolean isSSL) in E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn\GiaNguyen\UIs\Toolbar.ascx.cs:line 97
+-----------------------------------------------
+[Date 20/09/2015 01:20:43]
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <htphongqn@gmail.com>, Recipient unknown
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at GiaNguyen.UIs.Toolbar.SendEmailSMTP(String strSubject, String toAddress, String ccAddress, String bccAddress, String body, Boolean isHtml, Boolean isSSL) in E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn\GiaNguyen\UIs\Toolbar.ascx.cs:line 97
+-----------------------------------------------
+[Date 20/09/2015 01:19:00]
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <htphongqn@gmail.com>, Recipient unknown
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at GiaNguyen.UIs.Toolbar.SendEmailSMTP(String strSubject, String toAddress, String ccAddress, String bccAddress, String body, Boolean isHtml, Boolean isSSL) in E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn\GiaNguyen\UIs\Toolbar.ascx.cs:line 97
+-----------------------------------------------
+[Date 20/09/2015 01:17:20]
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <htphongqn@live.com>, Recipient unknown
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at GiaNguyen.UIs.Toolbar.SendEmailSMTP(String strSubject, String toAddress, String ccAddress, String bccAddress, String body, Boolean isHtml, Boolean isSSL) in E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn\GiaNguyen\UIs\Toolbar.ascx.cs:line 97
+-----------------------------------------------
+[Date 20/09/2015 01:13:45]
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <htphongqn@live.com>, Recipient unknown
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at GiaNguyen.UIs.Toolbar.SendEmailSMTP(String strSubject, String toAddress, String ccAddress, String bccAddress, String body, Boolean isHtml, Boolean isSSL) in E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn\GiaNguyen\UIs\Toolbar.ascx.cs:line 97
+-----------------------------------------------
+[Date 20/09/2015 01:07:26]
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <htphongqn@gmail.com>, Recipient unknown
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at GiaNguyen.UIs.Toolbar.SendEmailSMTP(String strSubject, String toAddress, String ccAddress, String bccAddress, String body, Boolean isHtml, Boolean isSSL) in E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn\GiaNguyen\UIs\Toolbar.ascx.cs:line 97
+-----------------------------------------------
 [Date 17/09/2015 11:50:42]
 System.Web.HttpException (0x80004005): DataBinding: 'Model.ESHOP_CATEGORy' does not contain a property with the name 'NEWS_URL'.
    at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)

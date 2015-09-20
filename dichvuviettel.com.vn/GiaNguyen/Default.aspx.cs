@@ -14,7 +14,7 @@ namespace THVDev
     public partial class Default : System.Web.UI.Page
     {
         Config cf = new Config();
-        protected void Page_Load(object sender, EventArgs e)
+        public void Bind_meta_tags_index()
         {
             HtmlHead header = base.Header;
             HtmlMeta headerDes = new HtmlMeta();
@@ -45,6 +45,11 @@ namespace THVDev
                 headerKey.Content = "Enews Standard V1.0";
                 header.Controls.Add(headerKey);
             }
-        }        
+        }      
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Bind_meta_tags_index();
+        }
+        
     }
 }

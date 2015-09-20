@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vpro.eshop.cpanel.Calendar {
+namespace yeuthietkeweb.cpanel.Calendar {
     
     
     public partial class pickerAndCalendar {

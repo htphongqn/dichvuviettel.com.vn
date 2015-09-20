@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="area.aspx.cs" Inherits="vpro.eshop.cpanel.page.area" %>
+    CodeBehind="area.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.area" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Khu vực | Vpro.Eshop </title>
+    <title>Khu vực | yeuthietkeweb </title>
     <script src="../Jquery/jquery.min.1.7.2.js" type="text/javascript"></script>
     <script src="../Jquery/JqueryCollapse/jquery.collapse.js" type="text/javascript"></script>
     <script language="javascript" type="text/javascript">

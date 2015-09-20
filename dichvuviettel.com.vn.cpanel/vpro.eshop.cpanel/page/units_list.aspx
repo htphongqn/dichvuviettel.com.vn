@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="units_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.units_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="units_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.units_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Đơn vị tiền tệ | Vpro.Eshop </title>
+    <title>Đơn vị tiền tệ | yeuthietkeweb </title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

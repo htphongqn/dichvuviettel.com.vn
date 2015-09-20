@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="area_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.area_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="area_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.area_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>DS khu vực | Vpro.Eshop </title>
+    <title>DS khu vực | yeuthietkeweb </title>
     <script language="javascript" type="text/javascript">
                 <!--
         function ToggleAll(e, action) {

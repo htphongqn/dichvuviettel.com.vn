@@ -54,7 +54,7 @@ namespace THVDev.UIs
         #endregion
 
         #region Function
-        public string GetLink(object Cat_Url, object Cat_Seo_Url, object Cat_Type)
+        public string GetLink_Cat(object Cat_Url, object Cat_Seo_Url)
         {
             try
             {

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using vpro.functions;
 
 
-namespace vpro.eshop.cpanel.ucControls
+namespace yeuthietkeweb.cpanel.ucControls
 {
     public partial class ucNewsInfo : System.Web.UI.UserControl
     {

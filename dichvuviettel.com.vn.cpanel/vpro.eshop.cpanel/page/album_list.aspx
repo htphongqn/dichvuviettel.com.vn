@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="album_list.aspx.cs" Inherits="vpro.eshop.cpanel.page.album_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="album_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.album_list" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Danh sách khách hàng | Vpro.Eshop </title>
+    <title>Danh sách khách hàng | yeuthietkeweb </title>
     <script language="javascript">
 				<!--
         function ToggleAll(e, action) {

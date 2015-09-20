@@ -105,10 +105,10 @@ namespace THVDev
                 strHTMLContent = objNewsReader.ReadToEnd();
                 objNewsReader.Close();
 
-                //Literal2.Text = strHTMLContent;
+                Literal2.Text = strHTMLContent;
             }
-            //else
-                //Literal2.Text = "";
+            else
+                Literal2.Text = "";
 
         }
 
@@ -135,15 +135,15 @@ namespace THVDev
                     string _sEmailCC = string.Empty;
                     string _sEmail = txtEmail.Value;
                     string _sName = Txtname.Value;
-                    string _add = "";// Txtaddress.Value;
-                    string _phone = "";// Txtphone.Value;
+                    string _add = Txtaddress.Value;
+                    string _phone = txtPhone.Value;
                     string _content = txtContent.Value;
                     string _title = txttitle.Value;
                     cf.Insert_contact(_sName, _sEmail, _title, _content, _add, _phone);
                     string _mailBody = string.Empty;
                     _mailBody += "<br/><br/><strong>Tên khách hàng</strong>: " + _sName;
-                    _mailBody += "<br/><br/><strong>Email</strong>: " + _sEmail;
                     _mailBody += "<br/><br/><strong>Số điện thoại</strong>: " + _phone;
+                    _mailBody += "<br/><br/><strong>Email</strong>: " + _sEmail;
                     _mailBody += "<br/><br/><strong>Địa chỉ</strong>: " + _add;
                     _mailBody += "<br/><br/><strong>Tiêu đề</strong>: " + _title;
                     _mailBody += "<br/><br/><strong>Nội dung</strong>: " + _content + "<br/><br/>";

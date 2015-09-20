@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="user.aspx.cs" Inherits="vpro.eshop.cpanel.page.user" %>
+    CodeBehind="user.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.user" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Người dùng | Vpro.Eshop </title>
+    <title>Người dùng | yeuthietkeweb </title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="icon_function_parent">

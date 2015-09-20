@@ -120,9 +120,7 @@
     <Content Include="vi-vn\Ajax\Email.js" />
     <Content Include="vi-vn\Ajax\login.js" />
     <Content Include="vi-vn\cart-result.aspx" />
-    <Content Include="vi-vn\CImage.aspx" />
     <Content Include="vi-vn\Contact.aspx" />
-    <Content Include="vi-vn\cart-result-en.aspx" />
     <Content Include="vi-vn\Images\btn-print.png" />
     <Content Include="vi-vn\Images\p_close.gif" />
     <Content Include="vi-vn\Images\reloadpaf.png" />
@@ -144,11 +142,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\clsFormat.cs" />
-    <Compile Include="Components\Cost.cs" />
     <Compile Include="Components\Pageindex_chage.cs" />
-    <Compile Include="Components\RandomImage.cs" />
     <Compile Include="Components\SendMail.cs" />
-    <Compile Include="Components\SendMailSMTP.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -258,26 +253,12 @@
     <Compile Include="vi-vn\cart-result.aspx.designer.cs">
       <DependentUpon>cart-result.aspx</DependentUpon>
     </Compile>
-    <Compile Include="vi-vn\CImage.aspx.cs">
-      <DependentUpon>CImage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="vi-vn\CImage.aspx.designer.cs">
-      <DependentUpon>CImage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="vi-vn\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="vi-vn\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="vi-vn\cart-result-en.aspx.cs">
-      <DependentUpon>cart-result-en.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="vi-vn\cart-result-en.aspx.designer.cs">
-      <DependentUpon>cart-result-en.aspx</DependentUpon>
     </Compile>
     <Compile Include="vi-vn\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

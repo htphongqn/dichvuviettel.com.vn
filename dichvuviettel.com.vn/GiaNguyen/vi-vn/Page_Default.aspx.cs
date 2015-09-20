@@ -21,13 +21,7 @@ namespace THVDev
         {
             try
             {
-                var _configs = cf.Config_meta();
-
-                if (_configs.ToList().Count > 0)
-                {
-                    if (!string.IsNullOrEmpty(_configs.ToList()[0].CONFIG_FAVICON))
-                        ltrFavicon.Text = "<link rel='shortcut icon' href='" + PathFiles.GetPathConfigs() + _configs.ToList()[0].CONFIG_FAVICON + "' />";
-                }
+                Bind_icon();
 
                 UserControl list_news = Page.LoadControl("../UIs/News.ascx") as UserControl;
                 UserControl details_news = Page.LoadControl("../UIs/New.ascx") as UserControl;
@@ -48,9 +42,10 @@ namespace THVDev
                         else phdMain.Controls.Add(list_news);
                         break;
                     case 5:
+                        Bind_meta_tags_index();
+                        //HtmlHead header = base.Header;           
+                        //header.Title = "Tìm kiếm";
                         //phdMain.Controls.Add(search);
-                        HtmlHead header = base.Header;           
-                        header.Title = "Tìm kiếm";
                         break;
                     case 6:
                         getsession.LoadNewsInfo(_newsSeoUrl);
@@ -74,6 +69,14 @@ namespace THVDev
             HtmlHead header = base.Header;
             HtmlMeta headerDes = new HtmlMeta();
             HtmlMeta headerKey = new HtmlMeta();
+            //Face tags
+            HtmlMeta propety = new HtmlMeta();
+            HtmlMeta propetyTitle = new HtmlMeta();
+            HtmlMeta propetyDesc = new HtmlMeta();
+            //Twitter tags
+            HtmlMeta propetyTw = new HtmlMeta();
+            HtmlMeta propetyTitleTw = new HtmlMeta();
+            HtmlMeta propetyDescTw = new HtmlMeta();
 
             headerDes.Name = "Description";
             headerKey.Name = "Keywords";
@@ -95,6 +98,30 @@ namespace THVDev
             }
 
             header.Controls.Add(headerKey);
+            //Facebook meta
+            propety.Attributes.Add("property", "og:image");
+            propety.Content = "" + System.Configuration.ConfigurationManager.AppSettings["URLWebsite"] + "" + PathFiles.GetPathCategory(Utils.CIntDef(Session["Cat_id"])) + Utils.CStrDef(Session["Cat_image1"]);
+            header.Controls.Add(propety);
+            //Title         
+            propetyTitle.Attributes.Add("property", "og:title");
+            propetyTitle.Content = Utils.CStrDef(Session["Cat_seo_title"]);
+            header.Controls.Add(propetyTitle);
+            //Desc
+            propetyDesc.Attributes.Add("property", "og:description");
+            propetyDesc.Content = Utils.CStrDef(Session["Cat_seo_desc"]);
+            header.Controls.Add(propetyDesc);
+            //Twitter meta
+            propetyTw.Attributes.Add("property", "twitter:image");
+            propetyTw.Content = "" + System.Configuration.ConfigurationManager.AppSettings["URLWebsite"] + "" + PathFiles.GetPathCategory(Utils.CIntDef(Session["Cat_id"])) + Utils.CStrDef(Session["Cat_image1"]);
+            header.Controls.Add(propetyTw);
+            //Title         
+            propetyTitleTw.Attributes.Add("property", "twitter:title");
+            propetyTitleTw.Content = Utils.CStrDef(Session["Cat_seo_desc"]);
+            header.Controls.Add(propetyTitleTw);
+            //Desc
+            propetyDescTw.Attributes.Add("property", "twitter:description");
+            propetyDescTw.Content = Utils.CStrDef(Session["Cat_seo_desc"]);
+            header.Controls.Add(propetyDescTw);
             #endregion
         }
         public void Bind_meta_tags_news()
@@ -103,16 +130,20 @@ namespace THVDev
             HtmlHead header = base.Header;
             HtmlMeta headerDes = new HtmlMeta();
             HtmlMeta headerKey = new HtmlMeta();
+            //Face tags
             HtmlMeta propety = new HtmlMeta();
+            HtmlMeta propetyTitle = new HtmlMeta();
+            HtmlMeta propetyDesc = new HtmlMeta();
+            //Twitter tags
+            HtmlMeta propetyTw = new HtmlMeta();
+            HtmlMeta propetyTitleTw = new HtmlMeta();
+            HtmlMeta propetyDescTw = new HtmlMeta();
 
             headerDes.Name = "Description";
             headerKey.Name = "Keywords";
             header.Title = Utils.CStrDef(Session["News_seo_title"]);
             headerDes.Content = Utils.CStrDef(Session["News_seo_desc"]);
             headerKey.Content = Utils.CStrDef(Session["News_seo_keyword"]);
-            propety.Attributes.Add("property", "og:image");
-            propety.Content = "dichvuviettel.com.vn" + PathFiles.GetPathNews(Utils.CIntDef(Session["News_id"])) + Utils.CStrDef(Session["News_image3"]);
-            header.Controls.Add(propety);
             if (string.IsNullOrEmpty(headerDes.Content))
             {
                 headerDes.Content = "";
@@ -125,8 +156,74 @@ namespace THVDev
             }
 
             header.Controls.Add(headerKey);
+            //Facebook meta
+            propety.Attributes.Add("property", "og:image");
+            propety.Content = "" + System.Configuration.ConfigurationManager.AppSettings["URLWebsite"] + "" + PathFiles.GetPathNews(Utils.CIntDef(Session["News_id"])) + Utils.CStrDef(Session["News_image3"]);
+            header.Controls.Add(propety);
+            //Title         
+            propetyTitle.Attributes.Add("property", "og:title");
+            propetyTitle.Content = Utils.CStrDef(Session["News_seo_title"]);
+            header.Controls.Add(propetyTitle);
+            //Desc
+            propetyDesc.Attributes.Add("property", "og:description");
+            propetyDesc.Content = Utils.CStrDef(Session["News_seo_desc"]);
+            header.Controls.Add(propetyDesc);
+            //Twitter meta
+            propetyTw.Attributes.Add("property", "twitter:image");
+            propetyTw.Content = "" + System.Configuration.ConfigurationManager.AppSettings["URLWebsite"] + "" + PathFiles.GetPathNews(Utils.CIntDef(Session["News_id"])) + Utils.CStrDef(Session["News_image3"]);
+            header.Controls.Add(propetyTw);
+            //Title         
+            propetyTitleTw.Attributes.Add("property", "twitter:title");
+            propetyTitleTw.Content = Utils.CStrDef(Session["News_seo_title"]);
+            header.Controls.Add(propetyTitleTw);
+            //Desc
+            propetyDescTw.Attributes.Add("property", "twitter:description");
+            propetyDescTw.Content = Utils.CStrDef(Session["News_seo_desc"]);
+            header.Controls.Add(propetyDescTw);
+
 
             #endregion
+        }
+        private void Bind_icon()
+        {
+            var _configs = cf.Config_meta();
+
+            if (_configs.ToList().Count > 0)
+            {
+                if (!string.IsNullOrEmpty(_configs.ToList()[0].CONFIG_FAVICON))
+                    ltrFavicon.Text = "<link rel='shortcut icon' href='" + PathFiles.GetPathConfigs() + _configs.ToList()[0].CONFIG_FAVICON + "' />";
+            }
+        }
+        public void Bind_meta_tags_index()
+        {
+            HtmlHead header = base.Header;
+            HtmlMeta headerDes = new HtmlMeta();
+            HtmlMeta headerKey = new HtmlMeta();
+            headerDes.Name = "Description";
+            headerKey.Name = "Keywords";
+
+            var _configs = cf.Config_meta();
+
+            if (_configs.ToList().Count > 0)
+            {
+                header.Title = _configs.ToList()[0].CONFIG_TITLE;
+
+                headerDes.Content = _configs.ToList()[0].CONFIG_DESCRIPTION;
+                header.Controls.Add(headerDes);
+
+                headerKey.Content = _configs.ToList()[0].CONFIG_KEYWORD;
+                header.Controls.Add(headerKey);
+            }
+            else
+            {
+                header.Title = "Enews Standard V1.0";
+
+                headerDes.Content = "Enews Standard V1.0";
+                header.Controls.Add(headerDes);
+
+                headerKey.Content = "Enews Standard V1.0";
+                header.Controls.Add(headerKey);
+            }
         }
     }
 }
