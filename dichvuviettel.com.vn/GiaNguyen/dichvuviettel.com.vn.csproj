@@ -109,6 +109,7 @@
     <Content Include="UIs\main.ascx" />
     <Content Include="UIs\New.ascx" />
     <Content Include="UIs\News.ascx" />
+    <Content Include="UIs\SearchResult.ascx" />
     <Content Include="UIs\side_left.ascx" />
     <Content Include="UIs\side_right.ascx" />
     <Content Include="UIs\silde_main.ascx" />
@@ -196,6 +197,13 @@
     </Compile>
     <Compile Include="UIs\News.ascx.designer.cs">
       <DependentUpon>News.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\SearchResult.ascx.cs">
+      <DependentUpon>SearchResult.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UIs\SearchResult.ascx.designer.cs">
+      <DependentUpon>SearchResult.ascx</DependentUpon>
     </Compile>
     <Compile Include="UIs\side_left.ascx.cs">
       <DependentUpon>side_left.ascx</DependentUpon>

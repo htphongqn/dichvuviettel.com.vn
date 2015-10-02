@@ -25,7 +25,7 @@ namespace THVDev
 
                 UserControl list_news = Page.LoadControl("../UIs/News.ascx") as UserControl;
                 UserControl details_news = Page.LoadControl("../UIs/New.ascx") as UserControl;
-                //UserControl search = Page.LoadControl("../UIs/SearchResult.ascx") as UserControl;
+                UserControl search = Page.LoadControl("../UIs/SearchResult.ascx") as UserControl;
                 int _type = Utils.CIntDef(Request["type"]);
                 string _catSeoUrl = Utils.CStrDef(Request.QueryString["curl"]);
                 string _newsSeoUrl = Utils.CStrDef(Request.QueryString["purl"]);
@@ -43,9 +43,9 @@ namespace THVDev
                         break;
                     case 5:
                         Bind_meta_tags_index();
-                        //HtmlHead header = base.Header;           
-                        //header.Title = "Tìm kiếm";
-                        //phdMain.Controls.Add(search);
+                        HtmlHead header = base.Header;           
+                        header.Title = "Tìm kiếm";
+                        phdMain.Controls.Add(search);
                         break;
                     case 6:
                         getsession.LoadNewsInfo(_newsSeoUrl);

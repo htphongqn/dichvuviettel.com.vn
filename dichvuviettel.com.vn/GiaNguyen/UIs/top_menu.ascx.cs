@@ -17,6 +17,7 @@ namespace THVDev.UIs
         #endregion
         protected void Page_Load(object sender, EventArgs e)
         {
+            txtSearch.Attributes.Add("onkeypress", "return clickButton(event,'" + Lbsearch.ClientID + "')");
             if (!IsPostBack)
             {
                 Load_Menu1();
@@ -83,5 +84,10 @@ namespace THVDev.UIs
             }
         }
         #endregion
+
+        protected void Lbsearch_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/tim-kiem.html?page=0&keyword=" + txtSearch.Value);
+        }
     }
 }

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="database_mau" Class="dbVuonRauVietDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=database_mau;User ID=sa" SettingsObjectName="Model.Properties.Settings" SettingsPropertyName="database_mauConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dataweb_mau" Class="dbVuonRauVietDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(local);Initial Catalog=dataweb_mau;Persist Security Info=True;User ID=sa" SettingsObjectName="Model.Properties.Settings" SettingsPropertyName="dataweb_mauConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Category" Member="Categories">
     <Type Name="Category">
       <Column Name="category_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -671,4 +671,8 @@
       <Column Name="CUSTOMER_UPDATE_POINT" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
     </Type>
   </Table>
+  <Function Name="dbo.fClearUnicode" Method="fClearUnicode" IsComposable="true">
+    <Parameter Name="strInput" Type="System.String" DbType="NVarChar(4000)" />
+    <Return Type="System.String" />
+  </Function>
 </Database>

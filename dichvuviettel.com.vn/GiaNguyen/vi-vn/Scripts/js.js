@@ -1,4 +1,3 @@
-
 $(function () {
     var pull = $('#pull');
     btnClose = $('#btnClose');
@@ -53,7 +52,7 @@ $(function () {
 
 $(function () {
 	 
-	$( ".navy >ul > li" ).append("<i class='fa fa-caret-right'></i>");
+	//$( ".navy >ul > li" ).append("<i class='fa fa-caret-right'></i>");
 	
  
         var w = $(window).width();
@@ -120,3 +119,20 @@ $(function () {
  
 
  
+ //popup search
+ 
+ var notH = 1,
+$pop = $('.popupSearch').hover(function () { notH ^= 1; });
+
+  $(document).on('mouseup keyup', function (e) {
+	  if (notH || e.which == 27) $pop.stop().hide();
+  });
+  $('.popupSearch').hide();
+$(document).ready(function () {
+  $('.trigger').click(function () {
+	  $('.popupSearch').slideToggle();  
+  });
+  $('.btn-close').click(function () {
+	  $('.popupSearch').slideUp('fast');
+  });
+}); 

@@ -37,7 +37,7 @@ namespace THVDev.UIs
             {
                 int _sotin = 25;
 
-                if (_txt == "Nhập từ khóa tìm kiếm…")
+                if (_txt == "Từ khóa tìm kiếm…")
                 {
                     _txt = "";
                 }

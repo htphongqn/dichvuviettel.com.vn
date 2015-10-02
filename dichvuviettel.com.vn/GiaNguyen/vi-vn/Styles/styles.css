@@ -366,6 +366,63 @@ header .container {
 	text-align: center
 }
 /*================================end*/
+/*===============================tim kiem*/
+.search {
+	position: absolute;
+	top: 12px;
+	right: 26px;
+}
+.trigger {
+	width: 30px;
+	height: 30px;
+	display: block;
+	color: #fff;
+	position: relative;
+	font-size: 17px
+}
+.popupSearch {
+	position: absolute;
+	top: 100%;
+	right: -10px;
+	min-width: 280px;
+	background: #00918C;
+	z-index: 10;
+	border: solid 1px #00918C;
+ 
+	background: #00918C;
+}
+.btn-close {
+	position: absolute;
+	left: -24px;
+	top: -1px;
+	background: #00918C;
+	color: #fff;
+	font-size: 17px;
+	padding: 5px;
+	height: 28px
+}
+.txt-search {
+	border: 0;
+	height: 26px;
+	float: left;
+	width: 213px;
+	text-indent: 10px;
+	font-size: 12px;
+	font-style: italic;
+	border-right: solid 1px #00918C;
+	background: #fff
+}
+.btn-search {
+	padding: 6px 21px;
+	cursor: default;
+	line-height: 26px;
+	color: #fff;
+	font-weight: bold
+}
+.btn-search:hover, .btn-close:hover {
+	color: #78E055
+}
+/*===============================end tim kiem*/
  @media (max-width:767px) {
 .brand-name, .brand {
 	display: inline-block;
@@ -425,3 +482,4 @@ header .container {
 	padding-top: 90px;
 }
 }
+
